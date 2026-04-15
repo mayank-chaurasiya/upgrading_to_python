@@ -6,7 +6,7 @@ input_number = int(input("Your number: "))
 n = input_number
 factorial = 1
 
-while input_number > 1:
+while input_number > 0:
     factorial *= input_number
     input_number -= 1
 
