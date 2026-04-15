@@ -4,14 +4,9 @@ it should greet with a default name.
 """
 
 
-def greet_user(name):
+def greet_user(name="User"):
     """Function to Greet User"""
-    if name:
-        print(f"Hello {name}")
-    else:
-        print("Hello User")
+    return "Hello, " + name + "!"
 
 
-user_str = input("Your Name: ")
-
-greet_user(user_str)
+print(greet_user("Mayank"))
